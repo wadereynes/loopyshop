@@ -13,7 +13,7 @@
                 {% endif %}
 
                 <div class="my-2">
-                    <label for="email_address" class="sr-only">First Name</label>
+                    <label for="email_address" class="sr-only">First name</label>
                     <input type="text"
                         name="customer[first_name]"
                         id="first_name"
@@ -31,6 +31,15 @@
                         autocomplete="family-name"
                         class="relative block w-full px-3 py-2 border"
                         placeholder="Last name"
+                    >
+                </div>
+
+                <div class="my-2">
+                    <label for="birthday" class="sr-only">Birthday</label>
+                    <input type="date"
+                        name="customer[note][Birthday]"
+                        id="birthday"
+                        class="relative block w-full px-3 py-2 border"
                     >
                 </div>
 
